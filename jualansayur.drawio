@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" version="21.0.0" pages="4">
+  <diagram id="usecase" name="USE CASE">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="actor_cust" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_admin" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" value="Register &amp; Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" value="Melihat Produk" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="200" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" value="Mengelola Keranjang" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" value="Checkout Pesanan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="400" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc5" value="Melihat Riwayat Pesanan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc6" value="Mengelola Kategori" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="600" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc7" value="Mengelola Produk &amp; Varian" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="700" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc8" value="Mengelola Status Pesanan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="800" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc9" value="Mengelola Pengguna" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="900" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e_c1" value="" style="endArrow=none;" edge="1" parent="1" source="actor_cust" target="uc1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_c2" value="" style="endArrow=none;" edge="1" parent="1" source="actor_cust" target="uc2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_c3" value="" style="endArrow=none;" edge="1" parent="1" source="actor_cust" target="uc3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_c4" value="" style="endArrow=none;" edge="1" parent="1" source="actor_cust" target="uc4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_c5" value="" style="endArrow=none;" edge="1" parent="1" source="actor_cust" target="uc5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a1" value="" style="endArrow=none;" edge="1" parent="1" source="actor_admin" target="uc1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a6" value="" style="endArrow=none;" edge="1" parent="1" source="actor_admin" target="uc6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a7" value="" style="endArrow=none;" edge="1" parent="1" source="actor_admin" target="uc7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a8" value="" style="endArrow=none;" edge="1" parent="1" source="actor_admin" target="uc8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a9" value="" style="endArrow=none;" edge="1" parent="1" source="actor_admin" target="uc9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="erd" name="ERD">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="erd_user" value="User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_cart" value="Cart" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_order" value="Order" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_orderitem" value="OrderItem" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_variant" value="ProductVariant" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_product" value="Product" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_category" value="Category" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rel1" value="1..N" style="endArrow=none;" edge="1" parent="1" source="erd_user" target="erd_cart">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2" value="1..N" style="endArrow=none;" edge="1" parent="1" source="erd_user" target="erd_order">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel3" value="1..N" style="endArrow=none;" edge="1" parent="1" source="erd_variant" target="erd_cart">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel4" value="1..N" style="endArrow=none;" edge="1" parent="1" source="erd_order" target="erd_orderitem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel5" value="1..N" style="endArrow=none;" edge="1" parent="1" source="erd_variant" target="erd_orderitem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel6" value="1..N" style="endArrow=none;" edge="1" parent="1" source="erd_product" target="erd_variant">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel7" value="1..N" style="endArrow=none;" edge="1" parent="1" source="erd_category" target="erd_product">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cdm" name="CDM">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cdm_user" value="&lt;table style=&quot;width:100%;font-size:12px;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;th style=&quot;border:1px solid #ccc;background:#eee;padding:4px;&quot;&gt;USER&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;id &amp;lt;pk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;name&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;email&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;password&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;phone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;role&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#ccc;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="200" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="cdm_cart" value="&lt;table style=&quot;width:100%;font-size:12px;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;th style=&quot;border:1px solid #ccc;background:#eee;padding:4px;&quot;&gt;CART&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;id &amp;lt;pk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;user_id &amp;lt;fk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;product_variant_id &amp;lt;fk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;quantity&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#ccc;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="200" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cdm_order" value="&lt;table style=&quot;width:100%;font-size:12px;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;th style=&quot;border:1px solid #ccc;background:#eee;padding:4px;&quot;&gt;ORDER&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;id &amp;lt;pk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;user_id &amp;lt;fk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;order_number&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;total_price&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;status&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;pickup_time&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#ccc;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="500" width="200" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="cdm_orderitem" value="&lt;table style=&quot;width:100%;font-size:12px;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;th style=&quot;border:1px solid #ccc;background:#eee;padding:4px;&quot;&gt;ORDER_ITEM&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;id &amp;lt;pk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;order_id &amp;lt;fk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;product_variant_id &amp;lt;fk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;quantity&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;price&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;subtotal&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#ccc;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="500" width="200" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="cdm_variant" value="&lt;table style=&quot;width:100%;font-size:12px;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;th style=&quot;border:1px solid #ccc;background:#eee;padding:4px;&quot;&gt;PRODUCT_VARIANT&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;id &amp;lt;pk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;product_id &amp;lt;fk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;unit&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;price&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;stock&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#ccc;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="100" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cdm_product" value="&lt;table style=&quot;width:100%;font-size:12px;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;th style=&quot;border:1px solid #ccc;background:#eee;padding:4px;&quot;&gt;PRODUCT&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;id &amp;lt;pk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;category_id &amp;lt;fk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;name&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;slug&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;description&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;image&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#ccc;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="100" width="200" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="cdm_category" value="&lt;table style=&quot;width:100%;font-size:12px;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;th style=&quot;border:1px solid #ccc;background:#eee;padding:4px;&quot;&gt;CATEGORY&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;id &amp;lt;pk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;name&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;slug&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;description&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#ccc;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="100" width="200" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cdm_r1" value="" style="endArrow=classic;startArrow=none;" edge="1" parent="1" source="cdm_user" target="cdm_cart">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdm_r2" value="" style="endArrow=classic;startArrow=none;" edge="1" parent="1" source="cdm_user" target="cdm_order">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdm_r3" value="" style="endArrow=classic;startArrow=none;" edge="1" parent="1" source="cdm_variant" target="cdm_cart">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdm_r4" value="" style="endArrow=classic;startArrow=none;" edge="1" parent="1" source="cdm_order" target="cdm_orderitem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdm_r5" value="" style="endArrow=classic;startArrow=none;" edge="1" parent="1" source="cdm_variant" target="cdm_orderitem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdm_r6" value="" style="endArrow=classic;startArrow=none;" edge="1" parent="1" source="cdm_product" target="cdm_variant">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdm_r7" value="" style="endArrow=classic;startArrow=none;" edge="1" parent="1" source="cdm_category" target="cdm_product">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pdm" name="PDM">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pdm_user" value="&lt;table style=&quot;width:100%;font-size:12px;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;th style=&quot;border:1px solid #ccc;background:#eee;padding:4px;&quot;&gt;users&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;id : bigint(20) &amp;lt;pk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;name : varchar(255)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;email : varchar(255)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;password : varchar(255)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;phone : varchar(255)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;role : enum&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#ccc;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="200" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="pdm_cart" value="&lt;table style=&quot;width:100%;font-size:12px;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;th style=&quot;border:1px solid #ccc;background:#eee;padding:4px;&quot;&gt;carts&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;id : bigint(20) &amp;lt;pk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;user_id : bigint(20) &amp;lt;fk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;product_variant_id : bigint(20) &amp;lt;fk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;quantity : int(11)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#ccc;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="200" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="pdm_order" value="&lt;table style=&quot;width:100%;font-size:12px;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;th style=&quot;border:1px solid #ccc;background:#eee;padding:4px;&quot;&gt;orders&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;id : bigint(20) &amp;lt;pk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;user_id : bigint(20) &amp;lt;fk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;order_number : varchar(255)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;total_price : decimal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;status : enum&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;pickup_time : datetime&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#ccc;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="500" width="200" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="pdm_orderitem" value="&lt;table style=&quot;width:100%;font-size:12px;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;th style=&quot;border:1px solid #ccc;background:#eee;padding:4px;&quot;&gt;order_items&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;id : bigint(20) &amp;lt;pk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;order_id : bigint(20) &amp;lt;fk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;product_variant_id : bigint(20) &amp;lt;fk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;quantity : int(11)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;price : decimal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;subtotal : decimal&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#ccc;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="500" width="200" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="pdm_variant" value="&lt;table style=&quot;width:100%;font-size:12px;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;th style=&quot;border:1px solid #ccc;background:#eee;padding:4px;&quot;&gt;product_variants&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;id : bigint(20) &amp;lt;pk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;product_id : bigint(20) &amp;lt;fk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;unit : varchar(255)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;price : decimal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;stock : int(11)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#ccc;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="100" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pdm_product" value="&lt;table style=&quot;width:100%;font-size:12px;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;th style=&quot;border:1px solid #ccc;background:#eee;padding:4px;&quot;&gt;products&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;id : bigint(20) &amp;lt;pk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;category_id : bigint(20) &amp;lt;fk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;name : varchar(255)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;slug : varchar(255)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;description : text&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;image : varchar(255)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#ccc;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="100" width="200" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="pdm_category" value="&lt;table style=&quot;width:100%;font-size:12px;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;th style=&quot;border:1px solid #ccc;background:#eee;padding:4px;&quot;&gt;categories&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;id : bigint(20) &amp;lt;pk&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;name : varchar(255)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;slug : varchar(255)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border:1px solid #ccc;padding:4px;&quot;&gt;description : text&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#ccc;fillColor=#ffffff;overflow=fill;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="100" width="200" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="pdm_r1" value="" style="endArrow=classic;startArrow=none;" edge="1" parent="1" source="pdm_user" target="pdm_cart">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pdm_r2" value="" style="endArrow=classic;startArrow=none;" edge="1" parent="1" source="pdm_user" target="pdm_order">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pdm_r3" value="" style="endArrow=classic;startArrow=none;" edge="1" parent="1" source="pdm_variant" target="pdm_cart">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pdm_r4" value="" style="endArrow=classic;startArrow=none;" edge="1" parent="1" source="pdm_order" target="pdm_orderitem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pdm_r5" value="" style="endArrow=classic;startArrow=none;" edge="1" parent="1" source="pdm_variant" target="pdm_orderitem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pdm_r6" value="" style="endArrow=classic;startArrow=none;" edge="1" parent="1" source="pdm_product" target="pdm_variant">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pdm_r7" value="" style="endArrow=classic;startArrow=none;" edge="1" parent="1" source="pdm_category" target="pdm_product">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
