@@ -29,13 +29,10 @@
     <!-- Sticky Navbar -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
+            <div class="flex justify-between items-center h-16 sm:h-20">
                 <!-- Logo -->
-                <a href="{{ route('home') }}" class="flex items-center gap-2">
-                    <div class="w-8 h-8 bg-emerald-600 rounded-lg flex items-center justify-center text-white">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
-                    </div>
-                    <span class="text-xl font-bold text-gray-800 tracking-tight hidden sm:block">Warung<span class="text-emerald-600">Mamah</span></span>
+                <a href="{{ route('home') }}" class="flex items-center gap-2 shrink-0">
+                    <img src="{{ asset('images/logo.png') }}" alt="Warung Mamah" class="h-12 sm:h-16 w-auto object-contain drop-shadow-sm">
                 </a>
 
                 <!-- Search (Desktop) -->
@@ -127,15 +124,8 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
                 <!-- Kolom 1: Logo & Deskripsi -->
                 <div>
-                    <a href="{{ route('home') }}" class="flex items-center gap-2 mb-6">
-                        <div class="w-10 h-10 bg-emerald-600 rounded-xl flex items-center justify-center text-white transform rotate-3 shadow-md">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
-                        </div>
-                        <span class="text-2xl font-black text-emerald-900 tracking-tight">Warung Mamah</span>
-                    </a>
+                    <img src="{{ asset('images/logo.png') }}" alt="Warung Mamah" class="h-20 sm:h-24 w-auto mb-4 object-contain">
                     <p class="text-gray-600 text-sm leading-relaxed mb-6">
-                        Menyediakan sayuran segar, buah-buahan, dan kebutuhan dapur dari pasar pagi lokal. Kualitas terjamin dengan harga bersahabat.
-                    </p>
                     <div class="flex space-x-4">
                         <a href="#" class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-gray-400 hover:text-emerald-600 hover:bg-emerald-50 transition-all shadow-sm border border-gray-100">
                             <span class="sr-only">Facebook</span>

@@ -13,11 +13,8 @@
     <!-- Sidebar -->
     <aside class="w-64 bg-emerald-800 text-white flex flex-col transition-all duration-300">
         <div class="h-16 flex items-center justify-center border-b border-emerald-700">
-            <a href="{{ route('admin.dashboard') }}" class="flex items-center gap-2 group">
-                <div class="w-8 h-8 bg-white text-emerald-800 rounded-lg flex items-center justify-center group-hover:scale-105 transition-transform">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
-                </div>
-                <span class="text-xl font-black tracking-tight text-white">Warung<span class="text-emerald-300">Mamah</span></span>
+            <a href="{{ route('admin.dashboard') }}" class="flex items-center gap-2 group w-full justify-center">
+                <img src="{{ asset('images/logo.png') }}" alt="Warung Mamah" class="h-14 sm:h-16 w-auto group-hover:scale-105 transition-transform object-contain">
             </a>
         </div>
         <nav class="flex-1 px-4 py-6 space-y-2 overflow-y-auto">

@@ -21,14 +21,11 @@
                 
                 <div class="w-full max-w-md">
                     <!-- Logo / Brand -->
-                    <div class="mb-10 text-center sm:text-left flex items-center justify-center sm:justify-start gap-3">
-                        <div class="w-12 h-12 bg-emerald-600 rounded-xl flex items-center justify-center text-white shadow-lg">
-                            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
-                        </div>
-                        <h1 class="text-3xl font-bold text-gray-800 tracking-tight">Warung<span class="text-emerald-600">Mamah</span></h1>
-                    </div>
-
-                    <!-- Slot containing the actual form -->
+                    <div class="flex flex-col items-center justify-center">
+                    <a href="/">
+                        <img src="{{ asset('images/logo.png') }}" alt="Warung Mamah" class="h-32 sm:h-40 w-auto mb-4 hover:scale-105 transition-transform duration-300 object-contain">
+                    </a>
+                </div>     <!-- Slot containing the actual form -->
                     <div class="bg-white">
                         {{ $slot }}
                     </div>
