@@ -32,7 +32,7 @@
             <div class="flex justify-between items-center h-16 sm:h-20">
                 <!-- Logo -->
                 <a href="{{ route('home') }}" class="flex items-center gap-2 shrink-0">
-                    <img src="{{ asset('images/logo.png') }}" alt="Warung Mamah" class="h-12 sm:h-16 w-auto object-contain drop-shadow-sm">
+                    <img src="{{ asset('images/logo.png') }}" alt="Warung Mamah" class="h-12 sm:h-16 w-auto object-contain drop-shadow-sm transform scale-[1.5] sm:scale-[1.8] origin-left">
                 </a>
 
                 <!-- Search (Desktop) -->

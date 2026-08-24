@@ -41,6 +41,14 @@ use App\Http\Controllers\Admin\OrderController as AdminOrderController;
 
 require __DIR__.'/auth.php';
 
+// Google OAuth Routes
+use App\Http\Controllers\Auth\GoogleAuthController;
+
+Route::middleware('guest')->group(function () {
+    Route::get('/auth/google/redirect', [GoogleAuthController::class, 'redirect'])->name('google.redirect');
+    Route::get('/auth/google/callback', [GoogleAuthController::class, 'callback'])->name('google.callback');
+});
+
 // Admin Routes
 Route::middleware(['auth', 'role:admin'])->prefix('admin')->name('admin.')->group(function () {
     Route::get('/dashboard', function () {
